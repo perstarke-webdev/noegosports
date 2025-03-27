@@ -79,7 +79,7 @@ body {
 
 .page__content {
 
-text-align: center;
+  text-align: center;
 
   h2 {
     padding-bottom: 0.5em;
@@ -284,4 +284,17 @@ text-align: center;
     background-repeat: repeat-y;
     background-attachment: scroll;
   }
+}
+
+
+
+
+
+
+
+
+
+
+.page__hero--overlay {
+  background-attachment: fixed;
 }
