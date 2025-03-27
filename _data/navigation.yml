@@ -6,7 +6,7 @@ main:
   - title: "Lösung"
     url: /#loesung
     blank: false
-  - title: "Nutzen"
+  - title: "Zielgruppe & Nutzen"
     url: /#zielgruppe
     blank: false
   - title: "Proof of Concept"

@@ -123,7 +123,9 @@ li {
     flex: 1;
     font-size: 18px;
     line-height: 1.4;
+    margin-top: 5px;
     text-align: left;
+
 }
 
 .step-text span {
@@ -139,5 +141,7 @@ li {
 
 }
 
-
+.margin-top {
+    margin-top: 2rem;
+}
 
