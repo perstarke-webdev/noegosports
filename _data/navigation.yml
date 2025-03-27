@@ -1,11 +1,20 @@
 # main links
 main:
-  - title: "Philosophie"
-    url: /#philosophie
+  - title: "Problem"
+    url: /#problem
     blank: false
-  - title: "Coaching-Angebote"
-    url: /#coaching
+  - title: "Lösung"
+    url: /#loesung
     blank: false
-  - title: "Testimonials"
-    url: /#testimonials
+  - title: "Nutzen"
+    url: /#zielgruppe
+    blank: false
+  - title: "Proof of Concept"
+    url: /#poc
+    blank: false
+  - title: "Vision"
+    url: /#vision
+    blank: false
+  - title: "Team"
+    url: /#team
     blank: false
