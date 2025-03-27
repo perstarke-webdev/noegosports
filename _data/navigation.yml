@@ -1,0 +1,11 @@
+# main links
+main:
+  - title: "Philosophie"
+    url: /#philosophie
+    blank: false
+  - title: "Coaching-Angebote"
+    url: /#coaching
+    blank: false
+  - title: "Testimonials"
+    url: /#testimonials
+    blank: false
