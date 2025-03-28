@@ -260,3 +260,64 @@ li {
 }
 
 
+
+
+
+.team-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.team-card {
+    flex: 0 1 300px;
+    border: 1px solid rgba(0, 0, 0, 0.3); /* subtle border */
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: rgba(0, 0, 0, 0.05); /* slightly transparent background */
+    backdrop-filter: blur(8px); /* slight blur effect (optional, modern feel) */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.team-image {
+    width: 140px; /* slightly bigger */
+    height: 140px; /* slightly bigger */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.team-role {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .team-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
